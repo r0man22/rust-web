@@ -17,3 +17,5 @@ pub fn connect_to_db() -> Result<Client, Box<dyn std::error::Error>> {
     println!("Successfully connected to database!");
     Ok(client)
 }
+
+
